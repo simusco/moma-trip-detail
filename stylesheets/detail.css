@@ -1,0 +1,452 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: "" "";
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+a img {
+  border: none;
+}
+
+body {
+  min-width: 1024px;
+  width: auto;
+  _width: 1024px;
+  font-family: arial, "Microsoft Yahei", "微软雅黑";
+}
+body a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+body a:active, body a:focus {
+  outline: none;
+}
+
+.ui-value {
+  color: #fe4017;
+}
+
+.topbar, .navbar > ul, .content {
+  margin: 0 auto;
+}
+
+.topbar .icon_phone > ul.menu, .topbar .icon_phone > ul.menu li a, .navbar > ul li a, .img_scroll_panel .img_card .switch_bar .switch_left_btn a, .img_scroll_panel .img_card .switch_bar .switch_btn li a, .img_scroll_panel .img_card .switch_bar .switch_right_btn a, .img_scroll_panel .detail > .book > span, .img_scroll_panel .detail > .book button, .gobar > ul > li a, .go_detailbar .title span, .go_detail .gosubbar > span, .services li img, .footer .about {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+.topbar .icon_phone > ul.menu li, .navbar > ul li, .img_scroll_panel .img_card .switch_bar .switch_btn li, .img_scroll_panel .detail .top > .fit > ul > li, .img_scroll_panel .detail .top > .desc > ul > li, .img_scroll_panel .detail .top > .book > ul > li, .gobar > ul > li, .footer .about li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  display: inline;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.topbar .icon_phone > ul.menu li:first-child, .navbar > ul li:first-child, .img_scroll_panel .img_card .switch_bar .switch_btn li:first-child, .img_scroll_panel .detail .top > .fit > ul > li:first-child, .img_scroll_panel .detail .top > .desc > ul > li:first-child, .img_scroll_panel .detail .top > .book > ul > li:first-child, .gobar > ul > li:first-child, .footer .about li:first-child, .topbar .icon_phone > ul.menu li.first, .navbar > ul li.first, .img_scroll_panel .img_card .switch_bar .switch_btn li.first, .img_scroll_panel .detail .top > .fit > ul > li.first, .img_scroll_panel .detail .top > .desc > ul > li.first, .img_scroll_panel .detail .top > .book > ul > li.first, .gobar > ul > li.first, .footer .about li.first {
+  padding-left: 0;
+}
+.topbar .icon_phone > ul.menu li:last-child, .navbar > ul li:last-child, .img_scroll_panel .img_card .switch_bar .switch_btn li:last-child, .img_scroll_panel .detail .top > .fit > ul > li:last-child, .img_scroll_panel .detail .top > .desc > ul > li:last-child, .img_scroll_panel .detail .top > .book > ul > li:last-child, .gobar > ul > li:last-child, .footer .about li:last-child {
+  padding-right: 0;
+}
+.topbar .icon_phone > ul.menu li.last, .navbar > ul li.last, .img_scroll_panel .img_card .switch_bar .switch_btn li.last, .img_scroll_panel .detail .top > .fit > ul > li.last, .img_scroll_panel .detail .top > .desc > ul > li.last, .img_scroll_panel .detail .top > .book > ul > li.last, .gobar > ul > li.last, .footer .about li.last {
+  padding-right: 0;
+}
+
+.topbar .icon_phone > ul.menu, .navbar, .navbar > ul, .content, .img_scroll_panel, .img_scroll_panel .img_card .switch_bar, .img_scroll_panel .img_card .switch_bar .switch_left_btn, .img_scroll_panel .img_card .switch_bar .switch_btn, .img_scroll_panel .img_card .switch_bar .switch_right_btn, .img_scroll_panel .detail, .img_scroll_panel .detail .top > .fit > ul, .img_scroll_panel .detail .top > .desc > ul, .img_scroll_panel .detail .top > .book > ul, .gobar, .gobar > ul, .gobar > ul > li, .services li, .footer .about {
+  *zoom: 1;
+}
+.topbar .icon_phone > ul.menu:after, .navbar:after, .navbar > ul:after, .content:after, .img_scroll_panel:after, .img_scroll_panel .img_card .switch_bar:after, .img_scroll_panel .img_card .switch_bar .switch_left_btn:after, .img_scroll_panel .img_card .switch_bar .switch_btn:after, .img_scroll_panel .img_card .switch_bar .switch_right_btn:after, .img_scroll_panel .detail:after, .img_scroll_panel .detail .top > .fit > ul:after, .img_scroll_panel .detail .top > .desc > ul:after, .img_scroll_panel .detail .top > .book > ul:after, .gobar:after, .gobar > ul:after, .gobar > ul > li:after, .services li:after, .footer .about:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.topbar .logo, .img_scroll_panel .img_card, .img_scroll_panel .img_card .switch_bar .switch_left_btn, .img_scroll_panel .img_card .switch_bar .switch_btn, .img_scroll_panel .detail, .services li, .services li img {
+  float: left;
+  display: inline;
+}
+
+.topbar .icon_phone, .img_scroll_panel .img_card .switch_bar .switch_right_btn {
+  float: right;
+  display: inline;
+}
+
+.img_scroll_panel .detail > .book button {
+  height: 40px;
+  background-color: #fb8300;
+  padding: 0px 20px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/**TOP bar STYLE------*/
+.topbar {
+  height: 4.1875em;
+  /*em(67px)*/
+  width: 63.75em;
+  /*em(1020px)*/
+  line-height: 4.1875em;
+}
+.topbar .logo {
+  width: 43.25em;
+  height: 100%;
+}
+.topbar .icon_phone {
+  height: 100%;
+  width: 20.3em;
+  background: #fff url("../images/bg_contact.png") no-repeat fixed right top;
+  -moz-background-size: 10.6875em, 4.1875em;
+  -o-background-size: 10.6875em, 4.1875em;
+  -webkit-background-size: 10.6875em, 4.1875em;
+  background-size: 10.6875em, 4.1875em;
+}
+.topbar .icon_phone > ul.menu li a {
+  padding: 0px 7px;
+  border-left: 1px solid #eaeaea;
+  height: 1.8em;
+  font-size: 0.75em;
+  line-height: 1.8em;
+}
+.topbar .icon_phone > ul.menu li:first-child {
+  margin-left: 7px;
+}
+.topbar .icon_phone > ul.menu li:first-child a {
+  border-left: 0;
+}
+
+.navbar {
+  background-color: #fb8300;
+}
+.navbar > ul {
+  display: inline-block;
+  width: 63.75em;
+}
+.navbar > ul {
+  display: block;
+}
+.navbar > ul li {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+.navbar > ul li:active, .navbar > ul li:focus {
+  outline: none;
+}
+.navbar > ul li a {
+  color: #fff;
+  font-weight: bolder;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1em;
+  margin-left: 34px;
+  padding: 0px 20px;
+}
+.navbar > ul li a.first {
+  margin-left: 0px;
+}
+.navbar > ul li a.active {
+  background-color: #d76a00;
+}
+
+.content {
+  width: 63.75em;
+  position: relative;
+}
+
+.img_scroll_panel {
+  border: 1px solid #eaeaea;
+  width: 100%;
+  margin-top: 17px;
+}
+.img_scroll_panel .img_card {
+  width: 500px;
+  margin: 5px;
+}
+.img_scroll_panel .img_card .screen img {
+  width: 100%;
+  height: 335px;
+}
+.img_scroll_panel .img_card .switch_bar {
+  width: 100%;
+  margin-top: 10px;
+}
+.img_scroll_panel .img_card .switch_bar .switch_left_btn a {
+  cursor: pointer;
+  width: 30px;
+  height: 70px;
+  background: #fff url("../images/switch_left_btn.png") no-repeat;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li:active, .img_scroll_panel .img_card .switch_bar .switch_btn li:focus {
+  outline: none;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li a {
+  cursor: pointer;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li a img {
+  width: 100px;
+  height: 70px;
+  margin-left: 10px;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li a img.first {
+  margin-left: 0px;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li a img.active {
+  border: 1px solid #fb8300;
+  width: 98px;
+  height: 68px;
+}
+.img_scroll_panel .img_card .switch_bar .switch_right_btn a {
+  cursor: pointer;
+  width: 30px;
+  height: 70px;
+  background: #fff url("../images/switch_right_btn.png") no-repeat;
+}
+.img_scroll_panel .detail {
+  margin: 5px;
+  width: 31.25em;
+}
+.img_scroll_panel .detail .title {
+  font-weight: bold;
+}
+.img_scroll_panel .detail .top {
+  height: 335px;
+}
+.img_scroll_panel .detail .top > .fit, .img_scroll_panel .detail .top > .desc, .img_scroll_panel .detail .top > .book {
+  margin: 10px 0px 0px 10px;
+}
+.img_scroll_panel .detail .top > .fit > ul, .img_scroll_panel .detail .top > .desc > ul, .img_scroll_panel .detail .top > .book > ul {
+  display: block;
+}
+.img_scroll_panel .detail .top > .fit > ul > li, .img_scroll_panel .detail .top > .desc > ul > li, .img_scroll_panel .detail .top > .book > ul > li {
+  font-size: 1em;
+  line-height: 2.0em;
+}
+.img_scroll_panel .detail > .book {
+  height: 70px;
+  background-color: #eaeaea;
+}
+.img_scroll_panel .detail > .book > span {
+  margin-left: 20px;
+  width: 340px;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.gobar {
+  width: 100%;
+  margin-top: 17px;
+}
+.gobar.fixed {
+  position: absolute;
+  float: left;
+  top: 584px;
+  left: 0px;
+  z-index: 1;
+}
+.gobar > ul > li {
+  background: #ffffff url("../images/go_btn.png") no-repeat;
+  font-weight: bold;
+  color: #fff;
+}
+.gobar > ul > li a {
+  width: 105px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.gobar > ul > li.active {
+  background: #ffffff url("../images/go_btn_active.png") no-repeat;
+  color: #6bc2fa;
+}
+.gobar > ul > li.last {
+  background: none;
+  height: 39px;
+  width: 30.9375em;
+  border-bottom: 1px solid #6bc2fa;
+}
+
+.go_detailbar {
+  margin-top: 50px;
+  width: 100%;
+}
+.go_detailbar .title {
+  background-color: #eaeaea;
+}
+.go_detailbar .title span {
+  width: 105px;
+  height: 40px;
+  background-color: #6bc2fa;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.go_detailbar > .arrow {
+  height: 10px;
+  background: #fff url("../images/arrow.png") no-repeat;
+}
+
+.go_detail {
+  margin-top: 14px;
+}
+.go_detail > .ui-star-1 {
+  margin-left: 100px;
+  list-style: disc inside;
+}
+.go_detail > .ui-star-1 li {
+  font-size: 0.87em;
+  line-height: 2em;
+}
+.go_detail > .ui-list-1 {
+  margin-left: 100px;
+  list-style: decimal inside;
+}
+.go_detail > .ui-list-1 li {
+  font-size: 0.87em;
+  line-height: 2em;
+}
+.go_detail > img {
+  width: 100%;
+  height: auto;
+}
+.go_detail .gosubbar {
+  height: 40px;
+  width: 100%;
+  font-weight: bold;
+  background-color: #eaeaea;
+}
+.go_detail .gosubbar > span {
+  width: 105px;
+  margin: 10px 0px 10px 7px;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 10px;
+  border-left: 5px solid #6bc2fa;
+}
+
+.advertise_img {
+  width: 100%;
+  margin-top: 90px;
+}
+.advertise_img img {
+  height: 90px;
+  width: 100%;
+}
+
+.services {
+  width: 100%;
+  margin-top: 40px;
+}
+.services li {
+  width: 338px;
+}
+.services li img {
+  width: 78px;
+  height: 78px;
+  margin-right: 12px;
+}
+.services li h1 {
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.8em;
+}
+.services li span {
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+
+.footer {
+  border-top: 1px dotted #dfdfdf;
+  margin-top: 39px;
+  text-align: center;
+}
+.footer .about {
+  height: 18px;
+  line-height: 18px;
+  vertical-align: middle;
+  margin-top: 32px;
+}
+.footer .about li {
+  border-right: 1px solid #333333;
+}
+.footer .about li a {
+  color: #3e85aa;
+  margin: 0px 7px 0 7px;
+  font-size: 14px;
+}
+.footer .about li.last {
+  border-right: 0px;
+}
+.footer .copyright {
+  height: 37px;
+  text-align: center;
+  display: block;
+  line-height: 37px;
+  vertical-align: middle;
+  background-color: #373636;
+  color: #666666;
+  margin-top: 20px;
+}
