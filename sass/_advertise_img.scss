@@ -1,0 +1,38 @@
+.advertise_img{
+  width: 100%;
+  margin-top: 90px;
+
+  img{
+    height: 90px;
+    width: 100%;
+  }
+}
+
+.services{
+  width: 100%;
+  margin-top: 40px;
+
+  li{
+    @extend %float-left;
+    @extend %clearfix;
+    width: 338px;
+
+    img{
+      @extend %float-left;
+      width: 78px;
+      height: 78px;
+      margin-right: 12px;
+    }
+
+    h1{
+      font-weight: bold;
+      font-size: 1em;
+      line-height: 1.8em;
+    }
+
+    span{
+      font-size: 0.75em;
+      line-height: 1.5em;
+    }
+  }
+}

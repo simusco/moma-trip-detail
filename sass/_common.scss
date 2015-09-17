@@ -1,0 +1,19 @@
+body{
+  @include min-width(1024px);
+  font-family: $my-font;
+
+  a{
+    @include unstyled-link();
+  }
+
+  .content{
+    @extend %align-center;
+    width: $app-width;
+    @extend %clearfix;
+    position: relative;
+  }
+}
+
+.ui-value{
+  color:#fe4017;
+}

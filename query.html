@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="css/query.css"/>
+    <script src="scripts/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $.extend({
+            serializeForTags:function(array, op){
+                var form = $('<form style="display:none;"></form>');
+
+                for(var i=0;i<array.length;i++){
+                    var o = array[i];
+                    for(x in o){
+                        var value = o[x];
+                        var e = $('<input type="hidden" name="tags['+i+'].'+x+'"/>');
+                        e.val(value);
+
+                        form.append(e);
+                    }
+                }
+
+                for(m in op){
+                    var value = op[m];
+                    var e = $('<input type="hidden" name="'+m+'"/>');
+                    e.val(value);
+
+                    form.append(e);
+                }
+
+                return form.serialize();
+            },
+            activeSelect:function(o){
+                o.parent().find('> li').each(function(){
+                    $(this).attr('active', 'false');
+                });
+
+                o.attr('active','true');
+            },
+            uiAnimation:{
+                moveUp:function(){
+                    $('*[ui-move-up]').each(function(){
+                        var o = $(this);
+                        o.mouseover(function(){
+                            $(this).css('margin-top','0px');
+                        });
+
+                        o.mouseout(function(){
+                            var v = o.attr('ui-move-up');
+                            if(parseInt(v) <=0 || parseInt(v) >= 1000){
+                                v = 0;
+                            }
+
+                            $(this).css('margin-top',v+'px');
+                        });
+                    });
+                },
+                imgChange:function(){
+                    $('img[ui-img-change]').each(function(){
+                        var o = $(this),
+                                v = o.attr('ui-img-change'),
+                                imgs = v.split(',');
+
+                        o.mouseover(function(){
+                            $(this).attr('src',imgs[1]);
+                        });
+
+                        o.mouseout(function(){
+                            $(this).attr('src',imgs[0]);
+                        });
+                    });
+                },
+                advertise:function(){
+                    var imgs = [];
+                    $('.switch_btn li').each(function(){
+                        var adImgUrl = $(this).attr('ad-img-url');
+                        imgs.push(adImgUrl);
+
+                        $(this).click(function(){
+                            $('#screen').attr('src', $(this).attr('ad-img-url'));
+                            $('.switch_btn li').each(function(){
+                                $(this).css('background-color','#ffffff');
+                            });
+                            $(this).css('background-color','#fb8300');
+                        });
+                    });
+
+                    var index = 0;
+                    window.setInterval(function(){
+                        if(index > imgs.length) index = 0;
+
+                        $('#screen').attr('src',imgs[index]);
+
+                        index ++;
+                    },3000);
+
+                    $('#blind_btn').css('left', $(document).width() / 2 - $('#blind_btn').width() / 2);
+                }
+            }
+        });
+
+        $(function(){
+            $.uiAnimation.advertise();
+            $.uiAnimation.moveUp();
+            $.uiAnimation.imgChange();
+        });
+    </script>
+
+</head>
+<body>
+
+<div class="topbar">
+    <div class="logo"></div>
+
+    <div class="icon_phone">
+        <ul class="menu">
+            <li><a href="">登陆</a></li>
+            <li><a href="">注册</a></li>
+            <li><a href="">关于我们</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="navbar">
+    <ul>
+        <li><a href="" class="first">首页</a></li>
+        <li><a href="" class="active">全部方案</a></li>
+        <li><a href="">企业福利</a></li>
+    </ul>
+</div>
+
+<div class="ad">
+    <ul class="switch_btn" id="blind_btn">
+        <li ad-img-url='images/ad_01.png'></li>
+        <li ad-img-url='images/ad_02.png'></li>
+        <li ad-img-url='images/ad_03.png'></li>
+    </ul>
+    <ul class="ad_img">
+        <li><img src="images/ad_03.png" id="screen"></li>
+    </ul>
+</div>
+
+<div class="content">
+
+    <ul class="recommend">
+        <li class="first"><img src="images/ad_01.png"></li>
+        <li><img src="images/ad_02.png"></li>
+        <li class="last"><img src="images/ad_03.png"></li>
+    </ul>
+
+    <div class="tags">
+        <div class="title">
+            <span>筛选方案</span>
+        </div>
+        <div class="content">
+            <div class="tag_row first">
+                <span><img src="images/tag_icon.png">目的地点：</span>
+                <ul class="tag_items">
+                    <li><a href="javascript:fn();">全部</a></li>
+                    <li><a href="javascript:fn();">国内</a></li>
+                    <li><a href="javascript:fn();">国外</a></li>
+                </ul>
+            </div>
+
+            <div class="tag_row">
+                <span><img src="images/tag_icon.png">团建时间：</span>
+                <ul class="tag_items">
+                    <li><a href="javascript:fn();">全部</a></li>
+                    <li><a href="javascript:fn();">国内</a></li>
+                    <li><a href="javascript:fn();">国外</a></li>
+                </ul>
+            </div>
+
+            <div class="tag_row">
+                <span><img src="images/tag_icon.png">主题特色：</span>
+                <ul class="tag_items">
+                    <li><a href="javascript:fn();">全部</a></li>
+                    <li><a href="javascript:fn();">国内</a></li>
+                    <li><a href="javascript:fn();">国外</a></li>
+                </ul>
+            </div>
+
+            <div class="tag_row">
+                <span><img src="images/tag_icon.png">活动目的：</span>
+                <ul class="tag_items">
+                    <li><a href="javascript:fn();">全部</a></li>
+                    <li><a href="javascript:fn();">国内</a></li>
+                    <li><a href="javascript:fn();">国外</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="pagination_bar">
+        <ul class="pagination">
+            <li class="first"><a href="">上一 页</a></li>
+            <li><a href="">1</a></li>
+            <li active="true"><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+            <li class="first"><a href="">下一页</a></li>
+        </ul>
+    </div>
+
+    <div class="advertise_img">
+        <img src="images/card-001.jpg"/>
+    </div>
+
+    <ul class="services">
+        <li>
+            <img src="images/service_01.png"/>
+            <h1>专业客服服务</h1>
+            <span>激光对抗系统射程超过400米，战绩，损伤可自动统计，战斗时间.</span>
+        </li>
+        <li>
+            <img src="images/service_02.png"/>
+            <h1>专业客服服务</h1>
+            <span>激光对抗系统射程超过400米，战绩，损伤可自动统计，战斗时间.</span>
+        </li>
+        <li>
+            <img src="images/service_03.png"/>
+            <h1>专业客服服务</h1>
+            <span>激光对抗系统射程超过400米，战绩，损伤可自动统计.</span>
+        </li>
+    </ul>
+
+</div>
+
+<div class="footer">
+    <ul class="about">
+        <li><a href="">关于我们</a></li>
+        <li><a href="">加入我们</a></li>
+        <li><a href="">帮助中心</a></li>
+        <li class="last"><a href="">联系我们</a></li>
+    </ul>
+    <span class="copyright">copyright©2014-2015 团建宝版权所有 京ICP备14017744号-5</span>
+</div>
+
+</body>
+</html>

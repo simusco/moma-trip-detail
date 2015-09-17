@@ -1,0 +1,49 @@
+/**TOP bar STYLE------*/
+.topbar {
+  @extend %align-center;
+  height: 4.1875em; /*em(67px)*/
+  width: $app-width; /*em(1020px)*/;
+  line-height: 4.1875em;
+
+  .logo {
+    width: 43.25em /*em(692px)*/;
+    height: 100%;
+    @extend %float-left;
+  }
+
+  .icon_phone{
+    @extend %float-right;
+    height: 100%;
+    width: 20.3em;
+    background: #fff image-url("bg_contact.png") no-repeat fixed right top;
+    @include background-size(10.6875em,4.1875em);
+
+    > ul.menu {
+      @extend %inline-block;
+      @extend %clearfix;
+
+      li {
+        @extend %horizontal-list-item;
+
+        a {
+          @extend %inline-block;
+          padding: 0px 7px;
+          border-left: 1px solid $divider-line-color;
+          height: 1.8em;
+          font-size: 0.75em;
+          line-height: 1.8em;
+        }
+      }
+
+      li:first-child {
+        margin-left: 7px;
+
+        a {
+          border-left: 0;
+        }
+      }
+
+    }
+  }
+
+}

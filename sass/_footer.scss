@@ -1,0 +1,41 @@
+.footer{
+  border-top: 1px dotted #dfdfdf;
+  margin-top: 39px;
+  text-align: center;
+
+  .about{
+    @extend %inline-block;
+    @extend %clearfix;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: 32px;
+
+    li{
+      @extend %horizontal-list-item;
+      border-right: 1px solid #333333;
+
+      a{
+        color: #3e85aa;
+        margin: 0px 7px 0 7px;
+        font-size: 14px;
+      }
+
+      &.last{
+        border-right: 0px;
+      }
+    }
+  }
+
+  .copyright{
+    height: 37px;
+    text-align: center;
+    display: block;
+    line-height: 37px;
+    vertical-align: middle;
+    background-color: #373636;
+    color: #666666;
+    margin-top: 20px;
+  }
+
+}

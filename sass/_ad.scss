@@ -1,0 +1,27 @@
+.ad {
+  position: relative;
+  width: 100%;
+
+  .switch_btn{
+    @extend %float-left;
+    @extend %clearfix;
+    z-index: 1;
+    position: absolute;
+    margin-top: 300px;
+
+    li{
+      @extend %inline-block;
+      width: 15px;
+      height: 15px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  .ad_img{
+    img{
+      width: 100%;
+      height: 334px;
+    }
+  }
+}

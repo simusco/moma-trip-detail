@@ -1,160 +1,17 @@
-$base-font-size : 16px;
-$base-line-height : 24px;
-$browser-minimum-versions : ("ie": "6");
-$divider-line-color : #eaeaea;
-$font-color : #a3a2a2;
-$menu-btn-color:#fb8300;
-$app-width : 63.75em;
-$border-color : $divider-line-color;
-$bg-line-color: #6bc2fa;
-$my-font : arial, 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ';
-
 @import "compass/reset-legacy";
 @import "compass/css3";
 @import "compass/utilities";
 @import "compass/typography";
 @import "compass/layout";
 
-body{
-  @include min-width(1024px);
-  font-family: $my-font;
+@import "variable";
+@import "mixin";
 
-  a{
-    @include unstyled-link();
-  }
-}
-
-.ui-value{
-  color:#fe4017;
-}
-
-%align-center{
-  margin: 0 auto;
-}
-
-%inline-block{
-  @include inline-block();
-}
-
-%horizontal-list-item{
-  @include horizontal-list-item(0px);
-}
-
-%clearfix{
-  @include legacy-pie-clearfix;
-}
-
-%float-left{
-  @include float(left);
-}
-
-%float-right{
-  @include float(right);
-}
-
-%btn{
-  height: 40px;
-  background-color: $menu-btn-color;
-  padding: 0px 20px;
-  @include border-radius(6px);
-  border:0;
-  font-size: 1em;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-/**TOP bar STYLE------*/
-.topbar {
-  @extend %align-center;
-  height: 4.1875em; /*em(67px)*/
-  width: $app-width; /*em(1020px)*/;
-  line-height: 4.1875em;
-
-  .logo {
-    width: 43.25em /*em(692px)*/;
-    height: 100%;
-    @extend %float-left;
-  }
-
-  .icon_phone{
-    @extend %float-right;
-    height: 100%;
-    width: 20.3em;
-    background: #fff url("../images/bg_contact.png") no-repeat fixed right top;
-    @include background-size(10.6875em,4.1875em);
-
-    > ul.menu {
-      @extend %inline-block;
-      @extend %clearfix;
-
-      li {
-        @extend %horizontal-list-item;
-
-        a {
-          @extend %inline-block;
-          padding: 0px 7px;
-          border-left: 1px solid $divider-line-color;
-          height: 1.8em;
-          font-size: 0.75em;
-          line-height: 1.8em;
-        }
-      }
-
-      li:first-child {
-        margin-left: 7px;
-
-        a {
-          border-left: 0;
-        }
-      }
-
-    }
-  }
-
-}
-
-.navbar{
-  background-color: $menu-btn-color;
-  @extend %clearfix;
-
-  > ul{
-    @extend %align-center;
-    @include has-layout-block();
-    @extend %clearfix;
-    width: $app-width;
-
-    li{
-      @include unstyled-link();
-      @extend %horizontal-list-item;
-
-      a{
-        @extend %inline-block;
-        color:#fff;
-        font-weight: bolder;
-        height: 40px;
-        line-height: 40px;
-        font-size: 1em;
-        margin-left: 34px;
-        padding: 0px 20px;
-
-        &.first{
-          margin-left: 0px;
-        }
-
-        &.active{
-          background-color: #d76a00;
-        }
-      }
-    }
-  }
-}
-
-.content{
-  @extend %align-center;
-  width: $app-width;
-  @extend %clearfix;
-  position: relative;
-}
+@import "common";
+@import "topbar";
+@import "navbar";
+@import "advertise_img";
+@import "footer";
 
 .img_scroll_panel{
   @extend %clearfix;
@@ -189,7 +46,7 @@ body{
           cursor: pointer;
           width: 30px;
           height: 70px;
-          background: #fff url("../images/switch_left_btn.png") no-repeat;
+          background: #fff image-url("switch_left_btn.png") no-repeat;
         }
       }
 
@@ -234,7 +91,7 @@ body{
           cursor: pointer;
           width: 30px;
           height: 70px;
-          background: #fff url("../images/switch_right_btn.png") no-repeat;
+          background: #fff image-url("switch_right_btn.png") no-repeat;
         }
       }
 
@@ -310,7 +167,7 @@ body{
     >li{
       @extend %horizontal-list-item;
       @extend %clearfix;
-      background:#ffffff url("../images/go_btn.png") no-repeat;
+      background:#ffffff image-url("go_btn.png") no-repeat;
       font-weight: bold;
       color:#fff;
 
@@ -323,7 +180,7 @@ body{
       }
 
       &.active{
-        background:#ffffff url("../images/go_btn_active.png") no-repeat;
+        background:#ffffff image-url("go_btn_active.png") no-repeat;
         color: $bg-line-color;
       }
 
@@ -359,7 +216,7 @@ body{
 
   > .arrow{
     height: 10px;
-    background: #fff url("../images/arrow.png") no-repeat;
+    background: #fff image-url("arrow.png") no-repeat;
   }
 }
 
@@ -407,86 +264,4 @@ body{
       border-left: 5px solid $bg-line-color;
     }
   }
-}
-
-.advertise_img{
-  width: 100%;
-  margin-top: 90px;
-
-  img{
-    height: 90px;
-    width: 100%;
-  }
-}
-
-.services{
-  width: 100%;
-  margin-top: 40px;
-
-  li{
-    @extend %float-left;
-    @extend %clearfix;
-    width: 338px;
-
-    img{
-      @extend %inline-block;
-      @extend %float-left;
-      width: 78px;
-      height: 78px;
-      margin-right: 12px;
-    }
-
-    h1{
-      font-weight: bold;
-      font-size: 1em;
-      line-height: 1.8em;
-    }
-
-    span{
-      font-size: 0.75em;
-      line-height: 1.5em;
-    }
-  }
-}
-
-.footer{
-  border-top: 1px dotted #dfdfdf;
-  margin-top: 39px;
-  text-align: center;
-
-  .about{
-    @extend %inline-block;
-    @extend %clearfix;
-    height: 18px;
-    line-height: 18px;
-    vertical-align: middle;
-    margin-top: 32px;
-
-    li{
-      @extend %horizontal-list-item;
-      border-right: 1px solid #333333;
-
-      a{
-        color: #3e85aa;
-        margin: 0px 7px 0 7px;
-        font-size: 14px;
-      }
-
-      &.last{
-        border-right: 0px;
-      }
-    }
-  }
-
-  .copyright{
-    height: 37px;
-    text-align: center;
-    display: block;
-    line-height: 37px;
-    vertical-align: middle;
-    background-color: #373636;
-    color: #666666;
-    margin-top: 20px;
-  }
-
 }

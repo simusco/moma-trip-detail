@@ -1,0 +1,169 @@
+@import "compass/reset-legacy";
+@import "compass/css3";
+@import "compass/utilities";
+@import "compass/typography";
+@import "compass/layout";
+
+@import "variable";
+@import "mixin";
+
+@import "common";
+@import "topbar";
+@import "navbar";
+@import "advertise_img";
+@import "footer";
+@import "ad";
+
+%img-list-ui{
+  ul{
+    margin-top: 32px;
+    &.first_row{
+      margin-top: 30px;
+    }
+
+    li{
+      @extend %inline-block;
+      margin-right: 32px;
+
+      &.last{
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+.rec_service{
+  width: 100%;
+  margin-top: 30px;
+
+  > h1.title{
+    border-bottom: 1px solid #f3f3f3;
+    text-align : center;
+    font-weight: bold;
+    height: 46px;
+    width: 100%;
+    font-size: 1.125em;
+    line-height: 2.874em;
+
+    .more{
+      font-size: 12px;
+      padding:0px 8px;
+    }
+  }
+
+  > .img_list_3{
+    @extend %img-list-ui;
+
+    ul{
+      li{
+        img{
+          width: 315px;
+          height: 233px;
+        }
+      }
+    }
+  }
+
+  > .img_list_4{
+    @extend %img-list-ui;
+
+    ul{
+      li{
+        img{
+          width: 227px;
+          height: 202px;
+        }
+      }
+    }
+
+    .img_title{
+      position: absolute;
+      z-index: 100;
+      background: rgba(255,255,255,0.8);
+      top: 166px;
+      left: 0px;
+      font-weight: bold;
+      height: 3em;
+      line-height: 3em;
+      font-size: 0.75em;
+      text-align: center;
+      vertical-align: baseline;
+      width: 228px;
+    }
+  }
+}
+
+.four_reason{
+  width: 100%;
+  margin-top: 30px;
+
+  > h1{
+    text-align : left;
+    font-weight: bold;
+    height: 46px;
+    width: 100%;
+    font-size: 1.125em;
+    line-height: 2.874em;
+  }
+
+  .content > .text{
+    width: 750px;
+    @extend %float-left;
+    @extend %clearfix;
+
+    ul{
+      @extend %clearfix;
+      padding-top: 30px;
+
+      li{
+        @extend %float-left;
+        @extend %clearfix;
+
+        img{
+          @extend %float-left;
+
+          width: 90px;
+          height: 90px;
+          margin-right: 10px;
+        }
+
+        h3{
+          font-weight: bold;
+          font-size: 0.875em;
+          line-height: 1.5em;
+        }
+
+        span{
+          font-size: 0.75em;
+          line-height: 1.5em;
+        }
+      }
+
+      &.first{
+        padding-top: 10px;
+      }
+    }
+  }
+
+  .content > .media{
+    @extend %clearfix;
+    @extend %float-left;
+
+    .video{
+      width: 268px;
+      height: 190px;
+    }
+
+    h2{
+      display:block;
+      height:36px;
+      background-color:#f4f5f7;
+      line-height:36px;
+      text-align:center;
+      color:#333333;
+      font-size:14px;
+      font-weight:bold;
+    }
+  }
+
+}

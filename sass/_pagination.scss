@@ -1,0 +1,38 @@
+.pagination_bar {
+  width: 100%;
+  margin-top: 57px;
+  text-align: center;
+
+  .pagination {
+    display: inline-block;
+
+    li {
+      @include border-radius(2px);
+      @extend %inline-block;
+
+      a{
+        @extend %inline-block;
+        height: 2.0em;
+        font-size: 1em;
+        line-height: 2.0em;
+        vertical-align: middle;
+        text-align: center;
+        padding:0px 7px;
+      }
+
+      &.first,&.last{
+        @include box-shadow(1px 1px 1px 1px #e5e5e5);
+        background-color: #f2f2f2;
+      }
+
+      a:hover{
+          background-color:#f2f2f2;
+      }
+    }
+
+    li[active=true]{
+      background-color:#fb8300;
+      color:#ffffff;
+    }
+  }
+}

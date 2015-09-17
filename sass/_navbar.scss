@@ -1,0 +1,36 @@
+.navbar{
+  background-color: $menu-btn-color;
+  @extend %clearfix;
+  border-bottom: 1px solid #fff;
+
+  > ul{
+    @extend %align-center;
+    @include has-layout-block();
+    @extend %clearfix;
+    width: $app-width;
+
+    li{
+      @include unstyled-link();
+      @extend %horizontal-list-item;
+
+      a{
+        @extend %inline-block;
+        color:#fff;
+        font-weight: bolder;
+        height: 40px;
+        line-height: 40px;
+        font-size: 1em;
+        margin-left: 34px;
+        padding: 0px 20px;
+
+        &.first{
+          margin-left: 0px;
+        }
+
+        &.active{
+          background-color: #d76a00;
+        }
+      }
+    }
+  }
+}
