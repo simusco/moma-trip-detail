@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa020e0-0fb8-4f55-be11-a79859db6faf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/workspace/web/moma-trip-detail/sass/_activeplan.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_activeplan.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/workspace/web/moma-trip-detail/sass/_advertise.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_advertise.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/adss.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_activeplan.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_ad.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_ad.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_common.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_common.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/detail.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/detail.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/index.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/index.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/query.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/query.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_ad.scss" afterPath="$PROJECT_DIR$/sass/_ad.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_common.scss" afterPath="$PROJECT_DIR$/sass/_common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/detail.css" afterPath="$PROJECT_DIR$/css/detail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detail.html" afterPath="$PROJECT_DIR$/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/detail.scss" afterPath="$PROJECT_DIR$/sass/detail.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/index.scss" afterPath="$PROJECT_DIR$/sass/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/query.css" afterPath="$PROJECT_DIR$/css/query.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query.html" afterPath="$PROJECT_DIR$/query.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/query.scss" afterPath="$PROJECT_DIR$/sass/query.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\workspace\web\moma-trip-detail\sass\_advertise_img.scss" afterPath="$PROJECT_DIR$/sass/_advertise.scss" />
     </list>
     <ignored path="moma-trip-detail.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,7 +60,7 @@
       <file leaf-file-name="_activeplan.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_activeplan.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2413793">
+            <state vertical-scroll-proportion="0.3888889">
               <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
               <folding />
             </state>
@@ -265,6 +236,13 @@
       <option name="number" value="Default" />
       <updated>1442369469634</updated>
     </task>
+    <task id="LOCAL-00001" summary="active plan module">
+      <created>1442543837442</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1442543837442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -273,7 +251,8 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16617863" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -282,7 +261,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -304,7 +282,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add index.html and query.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add index.html and query.html" />
+    <MESSAGE value="active plan module" />
+    <option name="LAST_COMMIT_MESSAGE" value="active plan module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -508,6 +487,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5947282">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_activeplan.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2413793">
+        <state vertical-scroll-proportion="0.3888889">
           <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
           <folding />
         </state>
