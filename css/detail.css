@@ -141,6 +141,11 @@ body .content {
   color: #fe4017;
 }
 
+.divider {
+  border: none;
+  border-top: 1px dotted #eaeaea;
+}
+
 /**TOP bar STYLE------*/
 .topbar {
   height: 4.1875em;
@@ -329,14 +334,45 @@ body .content {
   background: #fff url('../images/switch_right_btn.png?1442459705') no-repeat;
 }
 .img_scroll_panel .detail {
-  margin: 5px;
+  /*margin: 5px;*/
   width: 31.25em;
+}
+.img_scroll_panel .detail > h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin: 10px 0px 0px 10px;
+  display: block;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #666666;
+}
+.img_scroll_panel .detail > h1 > span {
+  color: #fe3000;
+}
+.img_scroll_panel .detail > h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: block;
+  font-size: 1em;
+  line-height: 1.5em;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #888888;
+  padding-left: 20px;
 }
 .img_scroll_panel .detail .title {
   font-weight: bold;
 }
 .img_scroll_panel .detail .top {
-  height: 335px;
+  height: 307px;
 }
 .img_scroll_panel .detail .top > .fit, .img_scroll_panel .detail .top > .desc, .img_scroll_panel .detail .top > .book {
   margin: 10px 0px 0px 10px;
@@ -347,6 +383,9 @@ body .content {
 .img_scroll_panel .detail .top > .fit > ul > li, .img_scroll_panel .detail .top > .desc > ul > li, .img_scroll_panel .detail .top > .book > ul > li {
   font-size: 1em;
   line-height: 2.0em;
+}
+.img_scroll_panel .detail .top > .fit, .img_scroll_panel .detail .top > .desc {
+  padding-left: 10px;
 }
 .img_scroll_panel .detail > .book {
   height: 70px;

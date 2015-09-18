@@ -55,7 +55,7 @@ body .content, .topbar, .navbar > ul {
   margin: 0 auto;
 }
 
-.topbar .icon_phone > ul.menu, .topbar .icon_phone > ul.menu li a, .navbar > ul li a, .footer .about, .ad .switch_btn li, .pagination_bar .pagination li, .pagination_bar .pagination li a, .tags > .title span, .tags .tag_row > span, .tags .tag_row > span > img, .tags .tag_items {
+.topbar .icon_phone > ul.menu, .topbar .icon_phone > ul.menu li a, .navbar > ul li a, .footer .about, .ad .switch_btn li, .pagination_bar .pagination li, .pagination_bar .pagination li a, .img_scroll_panel .img_card .switch_bar .switch_left_btn a, .img_scroll_panel .img_card .switch_bar .switch_btn li a, .img_scroll_panel .img_card .switch_bar .switch_right_btn a, .img_scroll_panel .detail > .book > span, .img_scroll_panel .detail > .book button, .tags > .title span, .tags .tag_row > span, .tags .tag_row > span > img, .tags .tag_items {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
@@ -63,7 +63,7 @@ body .content, .topbar, .navbar > ul {
   *display: inline;
 }
 
-.topbar .icon_phone > ul.menu li, .navbar > ul li, .footer .about li, .recommend > li {
+.topbar .icon_phone > ul.menu li, .navbar > ul li, .footer .about li, .img_scroll_panel .img_card .switch_bar .switch_btn li, .img_scroll_panel .detail .top > .fit > ul > li, .img_scroll_panel .detail .top > .desc > ul > li, .img_scroll_panel .detail .top > .book > ul > li, .recommend > li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
@@ -73,20 +73,20 @@ body .content, .topbar, .navbar > ul {
   padding-left: 0px;
   padding-right: 0px;
 }
-.topbar .icon_phone > ul.menu li:first-child, .navbar > ul li:first-child, .footer .about li:first-child, .recommend > li:first-child, .topbar .icon_phone > ul.menu li.first, .navbar > ul li.first, .footer .about li.first, .recommend > li.first {
+.topbar .icon_phone > ul.menu li:first-child, .navbar > ul li:first-child, .footer .about li:first-child, .img_scroll_panel .img_card .switch_bar .switch_btn li:first-child, .img_scroll_panel .detail .top > .fit > ul > li:first-child, .img_scroll_panel .detail .top > .desc > ul > li:first-child, .img_scroll_panel .detail .top > .book > ul > li:first-child, .recommend > li:first-child, .topbar .icon_phone > ul.menu li.first, .navbar > ul li.first, .footer .about li.first, .img_scroll_panel .img_card .switch_bar .switch_btn li.first, .img_scroll_panel .detail .top > .fit > ul > li.first, .img_scroll_panel .detail .top > .desc > ul > li.first, .img_scroll_panel .detail .top > .book > ul > li.first, .recommend > li.first {
   padding-left: 0;
 }
-.topbar .icon_phone > ul.menu li:last-child, .navbar > ul li:last-child, .footer .about li:last-child, .recommend > li:last-child {
+.topbar .icon_phone > ul.menu li:last-child, .navbar > ul li:last-child, .footer .about li:last-child, .img_scroll_panel .img_card .switch_bar .switch_btn li:last-child, .img_scroll_panel .detail .top > .fit > ul > li:last-child, .img_scroll_panel .detail .top > .desc > ul > li:last-child, .img_scroll_panel .detail .top > .book > ul > li:last-child, .recommend > li:last-child {
   padding-right: 0;
 }
-.topbar .icon_phone > ul.menu li.last, .navbar > ul li.last, .footer .about li.last, .recommend > li.last {
+.topbar .icon_phone > ul.menu li.last, .navbar > ul li.last, .footer .about li.last, .img_scroll_panel .img_card .switch_bar .switch_btn li.last, .img_scroll_panel .detail .top > .fit > ul > li.last, .img_scroll_panel .detail .top > .desc > ul > li.last, .img_scroll_panel .detail .top > .book > ul > li.last, .recommend > li.last {
   padding-right: 0;
 }
 
-body .content, .topbar .icon_phone > ul.menu, .navbar, .navbar > ul, .footer .about, .ad .switch_btn, .services li, .recommend {
+body .content, .topbar .icon_phone > ul.menu, .navbar, .navbar > ul, .footer .about, .ad .switch_btn, .services li, .img_scroll_panel, .img_scroll_panel .img_card .switch_bar, .img_scroll_panel .img_card .switch_bar .switch_left_btn, .img_scroll_panel .img_card .switch_bar .switch_btn, .img_scroll_panel .img_card .switch_bar .switch_right_btn, .img_scroll_panel .detail, .img_scroll_panel .detail .top > .fit > ul, .img_scroll_panel .detail .top > .desc > ul, .img_scroll_panel .detail .top > .book > ul, .recommend {
   *zoom: 1;
 }
-body .content:after, .topbar .icon_phone > ul.menu:after, .navbar:after, .navbar > ul:after, .footer .about:after, .ad .switch_btn:after, .services li:after, .recommend:after {
+body .content:after, .topbar .icon_phone > ul.menu:after, .navbar:after, .navbar > ul:after, .footer .about:after, .ad .switch_btn:after, .services li:after, .img_scroll_panel:after, .img_scroll_panel .img_card .switch_bar:after, .img_scroll_panel .img_card .switch_bar .switch_left_btn:after, .img_scroll_panel .img_card .switch_bar .switch_btn:after, .img_scroll_panel .img_card .switch_bar .switch_right_btn:after, .img_scroll_panel .detail:after, .img_scroll_panel .detail .top > .fit > ul:after, .img_scroll_panel .detail .top > .desc > ul:after, .img_scroll_panel .detail .top > .book > ul:after, .recommend:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -95,14 +95,27 @@ body .content:after, .topbar .icon_phone > ul.menu:after, .navbar:after, .navbar
   visibility: hidden;
 }
 
-.topbar .logo, .ad .switch_btn, .services li, .services li img {
+.topbar .logo, .ad .switch_btn, .services li, .services li img, .img_scroll_panel .img_card, .img_scroll_panel .img_card .switch_bar .switch_left_btn, .img_scroll_panel .img_card .switch_bar .switch_btn, .img_scroll_panel .detail {
   float: left;
   display: inline;
 }
 
-.topbar .icon_phone {
+.topbar .icon_phone, .img_scroll_panel .img_card .switch_bar .switch_right_btn {
   float: right;
   display: inline;
+}
+
+.img_scroll_panel .detail > .book button {
+  height: 40px;
+  background-color: #fb8300;
+  padding: 0px 20px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 body {
@@ -126,6 +139,11 @@ body .content {
 
 .ui-value {
   color: #fe4017;
+}
+
+.divider {
+  border: none;
+  border-top: 1px dotted #eaeaea;
 }
 
 /**TOP bar STYLE------*/
@@ -315,6 +333,133 @@ body .content {
 .pagination_bar .pagination li[active=true] {
   background-color: #fb8300;
   color: #ffffff;
+}
+
+.img_scroll_panel {
+  border: 1px solid #eaeaea;
+  width: 100%;
+  margin-top: 17px;
+}
+.img_scroll_panel .img_card {
+  width: 500px;
+  margin: 5px;
+}
+.img_scroll_panel .img_card .screen img {
+  width: 100%;
+  height: 335px;
+}
+.img_scroll_panel .img_card .switch_bar {
+  width: 100%;
+  margin-top: 10px;
+}
+.img_scroll_panel .img_card .switch_bar .switch_left_btn a {
+  cursor: pointer;
+  width: 30px;
+  height: 70px;
+  background: #fff url('../images/switch_left_btn.png?1442459647') no-repeat;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li:active, .img_scroll_panel .img_card .switch_bar .switch_btn li:focus {
+  outline: none;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li a {
+  cursor: pointer;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li a img {
+  width: 100px;
+  height: 70px;
+  margin-left: 10px;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li a img.first {
+  margin-left: 0px;
+}
+.img_scroll_panel .img_card .switch_bar .switch_btn li a img.active {
+  border: 1px solid #fb8300;
+  width: 98px;
+  height: 68px;
+}
+.img_scroll_panel .img_card .switch_bar .switch_right_btn a {
+  cursor: pointer;
+  width: 30px;
+  height: 70px;
+  background: #fff url('../images/switch_right_btn.png?1442459705') no-repeat;
+}
+.img_scroll_panel .detail {
+  /*margin: 5px;*/
+  width: 31.25em;
+}
+.img_scroll_panel .detail > h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin: 10px 0px 0px 10px;
+  display: block;
+  font-size: 1.125em;
+  line-height: 1.5em;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #666666;
+}
+.img_scroll_panel .detail > h1 > span {
+  color: #fe3000;
+}
+.img_scroll_panel .detail > h2 {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: block;
+  font-size: 1em;
+  line-height: 1.5em;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #888888;
+  padding-left: 20px;
+}
+.img_scroll_panel .detail .title {
+  font-weight: bold;
+}
+.img_scroll_panel .detail .top {
+  height: 307px;
+}
+.img_scroll_panel .detail .top > .fit, .img_scroll_panel .detail .top > .desc, .img_scroll_panel .detail .top > .book {
+  margin: 10px 0px 0px 10px;
+}
+.img_scroll_panel .detail .top > .fit > ul, .img_scroll_panel .detail .top > .desc > ul, .img_scroll_panel .detail .top > .book > ul {
+  display: block;
+}
+.img_scroll_panel .detail .top > .fit > ul > li, .img_scroll_panel .detail .top > .desc > ul > li, .img_scroll_panel .detail .top > .book > ul > li {
+  font-size: 1em;
+  line-height: 2.0em;
+}
+.img_scroll_panel .detail .top > .fit, .img_scroll_panel .detail .top > .desc {
+  padding-left: 10px;
+}
+.img_scroll_panel .detail > .book {
+  height: 70px;
+  background-color: #eaeaea;
+}
+.img_scroll_panel .detail > .book > span {
+  margin-left: 20px;
+  width: 340px;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.active_plan_container .img_scroll_panel .detail .top {
+  height: auto;
+}
+.active_plan_container .img_scroll_panel .detail .top .fit, .active_plan_container .img_scroll_panel .detail .top .desc {
+  color: #888888;
+  font-size: 0.875em;
+  line-height: 1.5em;
 }
 
 .recommend {

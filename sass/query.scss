@@ -12,8 +12,26 @@
 @import "navbar";
 @import "footer";
 @import "ad";
-@import "advertise_img";
+@import "advertise";
 @import "pagination";
+@import "activeplan";
+
+.active_plan_container{
+  .img_scroll_panel{
+
+    .detail{
+      .top{
+        height: auto;
+
+        .fit,.desc{
+          color:#888888;
+          font-size: 0.875em;
+          line-height: 1.5em;
+        }
+      }
+    }
+  }
+}
 
 .recommend{
   width: 100%;

@@ -2,33 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa020e0-0fb8-4f55-be11-a79859db6faf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/flash-player/flash.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/reason_001.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/reason_002.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/reason_003.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/reason_004.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tag_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/query.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/query.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/flash-player/swfobject.js" />
-      <change type="DELETED" beforePath="D:\workspace\web\moma-trip-detail\javascripts\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\web\moma-trip-detail\sass\ie.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\web\moma-trip-detail\sass\print.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\web\moma-trip-detail\sass\screen.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\web\moma-trip-detail\stylesheets\detail.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\web\moma-trip-detail\stylesheets\ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\web\moma-trip-detail\stylesheets\print.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\web\moma-trip-detail\stylesheets\screen.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ad_01.png" afterPath="$PROJECT_DIR$/images/ad_01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ad_02.png" afterPath="$PROJECT_DIR$/images/ad_02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ad_03.png" afterPath="$PROJECT_DIR$/images/ad_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/workspace/web/moma-trip-detail/sass/_activeplan.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_activeplan.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/workspace/web/moma-trip-detail/sass/_advertise.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_advertise.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/a07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/a001/adss.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_activeplan.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_ad.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_ad.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_common.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/_common.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/detail.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/detail.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/index.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/index.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/query.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd28d787eecabd2c80b2b16fb60b0a74b4381d9f/query.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_ad.scss" afterPath="$PROJECT_DIR$/sass/_ad.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_common.scss" afterPath="$PROJECT_DIR$/sass/_common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/detail.css" afterPath="$PROJECT_DIR$/css/detail.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detail.html" afterPath="$PROJECT_DIR$/detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/detail.scss" afterPath="$PROJECT_DIR$/sass/detail.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/index.scss" afterPath="$PROJECT_DIR$/sass/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/query.css" afterPath="$PROJECT_DIR$/css/query.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/query.html" afterPath="$PROJECT_DIR$/query.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/query.scss" afterPath="$PROJECT_DIR$/sass/query.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspace\web\moma-trip-detail\sass\_advertise_img.scss" afterPath="$PROJECT_DIR$/sass/_advertise.scss" />
     </list>
     <ignored path="moma-trip-detail.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +55,8 @@
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.678572">
-              <caret line="265" column="13" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="13" />
+            <state vertical-scroll-proportion="-6.607143">
+              <caret line="121" column="41" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -62,11 +65,12 @@
       <file leaf-file-name="query.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.357143">
-              <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+            <state vertical-scroll-proportion="-12.321428">
+              <caret line="204" column="51" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="57" />
               <folding>
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1442486446166" expanded="true" signature="337:350" placeholder="..." />
+                <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1442541946214" expanded="true" signature="337:350" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -75,38 +79,18 @@
       <file leaf-file-name="query.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/query.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.892857">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state vertical-scroll-proportion="-2.9404762">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
+      <file leaf-file-name="_activeplan.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/_activeplan.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="query.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/query.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_pagination.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/_pagination.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31034482">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.2413793">
+              <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -133,19 +117,20 @@
         <option value="$PROJECT_DIR$/sass/_topbar.scss" />
         <option value="$PROJECT_DIR$/sass/_footer.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/detail.html" />
-        <option value="$PROJECT_DIR$/sass/_ad.scss" />
         <option value="$PROJECT_DIR$/sass/_navbar.scss" />
-        <option value="$PROJECT_DIR$/sass/detail.scss" />
-        <option value="$PROJECT_DIR$/sass/_common.scss" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/sass/_advertise_img.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/index.scss" />
-        <option value="$PROJECT_DIR$/sass/query.scss" />
-        <option value="$PROJECT_DIR$/query.html" />
         <option value="$PROJECT_DIR$/css/query.css" />
         <option value="$PROJECT_DIR$/sass/_pagination.scss" />
+        <option value="$PROJECT_DIR$/sass/_ad.scss" />
+        <option value="$PROJECT_DIR$/sass/detail.scss" />
+        <option value="$PROJECT_DIR$/sass/_common.scss" />
+        <option value="$PROJECT_DIR$/query.html" />
+        <option value="$PROJECT_DIR$/detail.html" />
+        <option value="$PROJECT_DIR$/sass/query.scss" />
+        <option value="$PROJECT_DIR$/sass/_activeplan.scss" />
       </list>
     </option>
   </component>
@@ -185,7 +170,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,6 +190,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -297,6 +282,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -316,6 +302,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add index.html and query.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add index.html and query.html" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -323,6 +313,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+          <folding>
+            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1442541946214" expanded="true" signature="337:350" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/query.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="331" column="0" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/query.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -335,10 +369,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#400#1842#0" expanded="false" />
-            <element signature="e#561#1838#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -409,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -437,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -479,7 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5947282">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,27 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_ad.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8965517">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3448276">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49222797">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -523,15 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/detail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.481835">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_advertise_img.scss">
+    <entry file="file://$PROJECT_DIR$/sass/_advertise.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80217785">
           <caret line="35" column="5" selection-start-line="26" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
@@ -565,28 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="110" selection-end-column="13" />
-          <folding>
-            <element signature="n#script#2;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34887737">
@@ -603,22 +584,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detail.html">
+    <entry file="file://$PROJECT_DIR$/sass/_pagination.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.678572">
-          <caret line="265" column="13" selection-start-line="265" selection-start-column="13" selection-end-line="265" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.3448276">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.357143">
-          <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
-          <folding>
-            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1442486446166" expanded="true" signature="337:350" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,26 +600,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/query.scss">
+    <entry file="file://$PROJECT_DIR$/sass/_ad.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.892857">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="-7.803571">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/detail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8095238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.803571">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.64076">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="110" selection-end-column="13" />
+          <folding>
+            <element signature="n#script#2;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/query.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.80242634">
+          <caret line="530" column="0" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_pagination.scss">
+    <entry file="file://$PROJECT_DIR$/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31034482">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state vertical-scroll-proportion="-6.607143">
+          <caret line="121" column="41" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.321428">
+          <caret line="204" column="51" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="57" />
+          <folding>
+            <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1442541946214" expanded="true" signature="337:350" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/query.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9404762">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_activeplan.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2413793">
+          <caret line="140" column="27" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
           <folding />
         </state>
       </provider>

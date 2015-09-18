@@ -1,0 +1,164 @@
+.img_scroll_panel{
+  @extend %clearfix;
+  border:1px solid $border-color;
+  width: 100%;
+
+  margin-top: 17px;
+
+  .img_card{
+    width: 500px;
+    margin: 5px;
+    @extend %float-left;
+
+    .screen{
+      img{
+        width: 100%;
+        height: 335px;
+      }
+    }
+
+    .switch_bar{
+      width: 100%;
+      @extend %clearfix;
+      margin-top: 10px;
+
+      .switch_left_btn{
+        @extend %clearfix;
+        @extend %float-left;
+
+        a{
+          @extend %inline-block;
+          cursor: pointer;
+          width: 30px;
+          height: 70px;
+          background: #fff image-url("switch_left_btn.png") no-repeat;
+        }
+      }
+
+      .switch_btn{
+        @extend %float-left;
+        @extend %clearfix;
+
+        li{
+          @include unstyled-link();
+          @extend %horizontal-list-item;
+
+          a{
+            @extend %inline-block;
+            cursor: pointer;
+
+            img{
+              width: 100px;
+              height: 70px;
+              margin-left:10px;
+
+              &.first{
+                margin-left: 0px;
+              }
+
+              &.active{
+                border: 1px solid $menu-btn-color;
+                width: 98px;
+                height: 68px;
+              }
+            }
+          }
+
+        }
+      }
+
+      .switch_right_btn{
+        @extend %clearfix;
+        @extend %float-right;
+
+        a{
+          @extend %inline-block;
+          cursor: pointer;
+          width: 30px;
+          height: 70px;
+          background: #fff image-url("switch_right_btn.png") no-repeat;
+        }
+      }
+
+    }
+  }
+
+  .detail{
+    /*margin: 5px;*/
+    @extend %float-left;
+    @extend %clearfix;
+    width: 31.25em;
+
+    >h1{
+      @include ellipsis(true);
+      margin: 10px 0px 0px 10px;
+      display: block;
+      font-size: 1.125em;
+      line-height: 1.5em;
+      vertical-align: middle;
+      font-weight: bold;
+      color:#666666;
+
+      > span{
+        color: #fe3000;
+      }
+    }
+
+    >h2{
+      @include ellipsis(true);
+      display: block;
+      font-size: 1em;
+      line-height: 1.5em;
+      vertical-align: middle;
+      font-weight: bold;
+      color: #888888;
+      padding-left: 20px;
+    }
+
+    .title{
+      font-weight: bold;
+    }
+
+    .top{
+      height: 307px;
+
+      >.fit, >.desc, >.book{
+        margin: 10px 0px 0px 10px;
+
+        > ul{
+          display: block;
+          @extend %clearfix;
+
+          > li{
+            @extend %horizontal-list-item;
+            font-size: 1em;
+            line-height: 2.0em;
+          }
+        }
+      }
+
+      >.fit, >.desc{
+        padding-left: 10px;
+      }
+    }
+
+    >.book{
+      height: 70px;
+      background-color: $border-color;
+
+      > span{
+        margin-left: 20px;
+        width: 340px;
+        @extend %inline-block;
+        line-height: 70px;
+        vertical-align: middle;
+      }
+
+      button{
+        @extend %btn;
+        @extend %inline-block;
+      }
+    }
+
+  }
+}
