@@ -148,7 +148,7 @@ body .content {
 .topbar .icon_phone {
   height: 100%;
   width: 20.3em;
-  background: #fff url('../images/bg_contact.png?1442377385') no-repeat fixed right top;
+  background: #fff url('../images/bg_contact.png?1442377385') no-repeat fixed 50% 50%;
   -moz-background-size: 10.6875em, 4.1875em;
   -o-background-size: 10.6875em, 4.1875em;
   -webkit-background-size: 10.6875em, 4.1875em;

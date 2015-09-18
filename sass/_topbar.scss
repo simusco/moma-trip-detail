@@ -15,7 +15,7 @@
     @extend %float-right;
     height: 100%;
     width: 20.3em;
-    background: #fff image-url("bg_contact.png") no-repeat fixed right top;
+    background: #fff image-url("bg_contact.png") no-repeat fixed 50% 50%;
     @include background-size(10.6875em,4.1875em);
 
     > ul.menu {

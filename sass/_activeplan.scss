@@ -130,7 +130,7 @@
           @extend %clearfix;
 
           > li{
-            @extend %horizontal-list-item;
+            @include horizontal-list-item(4px);
             font-size: 1em;
             line-height: 2.0em;
           }
