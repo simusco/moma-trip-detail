@@ -318,14 +318,15 @@ body .content {
   width: 100px;
   height: 70px;
   margin-left: 10px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
 }
 .img_scroll_panel .img_card .switch_bar .switch_btn li a img.first {
   margin-left: 0px;
 }
 .img_scroll_panel .img_card .switch_bar .switch_btn li a img.active {
-  border: 1px solid #fb8300;
-  width: 98px;
-  height: 68px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
 }
 .img_scroll_panel .img_card .switch_bar .switch_right_btn a {
   cursor: pointer;
@@ -389,8 +390,10 @@ body .content {
   display: inline;
   padding-left: 4px;
   padding-right: 4px;
-  font-size: 1em;
-  line-height: 2.0em;
+  font-size: 0.875em;
+  line-height: 2em;
+  font-weight: normal;
+  color: #666;
 }
 .img_scroll_panel .detail .top > .fit > ul > li:first-child, .img_scroll_panel .detail .top > .fit > ul > li.first, .img_scroll_panel .detail .top > .desc > ul > li:first-child, .img_scroll_panel .detail .top > .desc > ul > li.first, .img_scroll_panel .detail .top > .book > ul > li:first-child, .img_scroll_panel .detail .top > .book > ul > li.first {
   padding-left: 0;
@@ -418,6 +421,7 @@ body .content {
 .gobar {
   width: 100%;
   margin-top: 17px;
+  background-color: #fff;
 }
 .gobar.fixed {
   position: absolute;

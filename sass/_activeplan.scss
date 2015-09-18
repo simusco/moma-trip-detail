@@ -51,15 +51,14 @@
               width: 100px;
               height: 70px;
               margin-left:10px;
+              @include opacity(0.5);
 
               &.first{
                 margin-left: 0px;
               }
 
               &.active{
-                border: 1px solid $menu-btn-color;
-                width: 98px;
-                height: 68px;
+                @include opacity(1);
               }
             }
           }
@@ -131,8 +130,10 @@
 
           > li{
             @include horizontal-list-item(4px);
-            font-size: 1em;
-            line-height: 2.0em;
+            font-size: 0.875em;
+            line-height: 2em;
+            font-weight: normal;
+            color: #666;
           }
         }
       }

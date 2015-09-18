@@ -8,6 +8,7 @@
     z-index: 1;
     position: absolute;
     margin-top: 300px;
+    display: none;
 
     li{
       @extend %inline-block;
